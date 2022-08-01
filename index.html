@@ -9,21 +9,50 @@
 </head>
 
 <body>
-	
-	<img src="https://picsum.photos/200/300?random=1">
 
-	
-	<div class="topnav" id="myTopnav">
-		<a href="#home" class="active">Home</a>
-		<a href="#news">Gelijkvloers</a>
-		<a href="#contact">1ste Verdiep</a>
-		<a href="#about">2de Verdiep</a>
-		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-			<i class="fa fa-bars"></i>
-		</a>
+
+
+
+	<nav class="navbar">
+		<!-- LOGO -->
+		<div class="logo">Gerststraat 4</div>
+		<!-- NAVIGATION MENU -->
+		<ul class="nav-links">
+			<!-- USING CHECKBOX HACK -->
+			<input type="checkbox" id="checkbox_toggle" />
+			<label for="checkbox_toggle" class="hamburger">&#9776;</label>
+			<!-- NAVIGATION MENUS -->
+			<div class="menu">
+				<li><a href="/">Info</a></li>
+				<li><a href="/">Gelijkvloers</a></li>
+				<li><a href="/">1ste Verdiep</a></li>
+				<li><a href="/">2de Verdiep</a></li>
+			</div>
+		</ul>
+	</nav>
+
+	<div id="container">
+		<!-- PHOTO STREAM -->
+		<div id="photos">
+			<img src="https://picsum.photos/800/600">
+			<img src="https://picsum.photos/800/600">
+			<img src="https://picsum.photos/800/600">
+			<img src="https://picsum.photos/800/600">
+			<img src="https://picsum.photos/800/600">
+			<img src="https://picsum.photos/800/600">
+			<img src="https://picsum.photos/800/600">
+			<img src="https://picsum.photos/800/600">
+			<img src="https://picsum.photos/800/600">
+		</div>
+		<script src="script.js"></script>
+
+		<!-- PLATTEGRPOND -->
+		<div id="plan">
+			<img src="images/plans/plan-0.png" class="ribbon" alt="" />
+			<div></div>
+		</div>
 	</div>
 
-	<script src="script.js"></script>
 
 
 </body>
