@@ -5,12 +5,13 @@
 }
 body {
  font-family: Arial, Helvetica, sans-serif;
+	padding-bottom:500px;
 }
 
 /* My CSS */
 
 /* APPLYING MEDIA QUERIES */
-@media (min-width: 769px) {
+@media (min-width: 701px) {
 
 #photos img{
 	margin:30px 30px 0px 30px;
@@ -78,8 +79,8 @@ input[type=checkbox]{
  user-select: none;
 }
 /* APPLYING MEDIA QUERIES */
-@media (max-width: 768px) {
-
+@media (max-width: 700px) {
+	
 #photos img{
 	margin:30px 30px 0px 30px;
 	width:87%
