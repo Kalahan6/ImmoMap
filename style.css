@@ -9,24 +9,32 @@ body {
 
 /* My CSS */
 
-#container{
-  display: flex;
+/* APPLYING MEDIA QUERIES */
+@media (min-width: 769px) {
+
+#photos img{
+	margin:30px 30px 0px 30px;
+	width:50%
+
 }
 
-#photos{
-	padding: 30px;
-	width:600px;
 
+	
+#plan img {
+	position: fixed;
+	top: 100px;
+	right: 30px;
+	z-index: 1;
+	padding: 0px;
+	margin: 0px;
+	width:40%;
+
+}
 }
 
 
 
-#plan {
-	padding: 30px;
-	width:300px;
-	flex-shrink:1;
-}
-
+/* MENU BAR */
 
 
 a {
@@ -36,9 +44,6 @@ li {
  list-style: none;
 }
 
-img{
-   margin-bottom: 30px;  /* Vertical Space */
-}
 .navbar {
  display: flex;
  align-items: center;
@@ -74,6 +79,26 @@ input[type=checkbox]{
 }
 /* APPLYING MEDIA QUERIES */
 @media (max-width: 768px) {
+
+#photos img{
+	margin:30px 30px 0px 30px;
+	width:87%
+}
+
+
+	
+#plan img {
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	z-index: 1;
+	padding: 0px;
+	margin: 0px;
+	width:100%;
+
+}
+
+
 .menu { 
  display:none;
  position: absolute;
