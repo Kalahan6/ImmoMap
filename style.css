@@ -38,6 +38,12 @@ body {
 		width:50%
 	}
 
+	#photos h1{
+		margin:30px 30px 0px 30px;
+
+	}
+
+
 	#mapContainer {
 	    position: relative;
 		display:block;
@@ -114,7 +120,11 @@ input[type=checkbox]{
 /* APPLYING MEDIA QUERIES */
 @media (max-width: 700px) {
 
-	
+		#photos h1{
+		margin:30px 30px 0px 30px;
+
+	}
+
 	
 	#photos img{
 		margin:30px 30px 0px 30px;
@@ -154,6 +164,7 @@ input[type=checkbox]{
  left: 0;
  text-align: center;
  padding: 16px 0;
+z-index:1;
 }
 .menu li:hover {
  display: inline-block;
