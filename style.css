@@ -28,7 +28,13 @@ body {
 	width:100%;
 }
 
+p{
+  margin-top:10px;
+}
 
+h2{
+  margin-bottom:4px;
+}
 
 /* APPLYING MEDIA QUERIES */
 @media (min-width: 701px) {
