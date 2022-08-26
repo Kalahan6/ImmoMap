@@ -125,7 +125,9 @@ input[type=checkbox]{
 
 /* APPLYING MEDIA QUERIES */
 @media (max-width: 700px) {
-
+  h1{
+    font-size: 20;
+  }
 		#photos h1{
 		margin:30px 30px 0px 30px;
 
