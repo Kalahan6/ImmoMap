@@ -20,7 +20,8 @@
       <label for="checkbox_toggle" class="hamburger">&#9776;</label>
       <!-- NAVIGATION MENUS -->
       <div class="menu">
-        <li><a href="index.html">Info</a></li>
+        <li><a href="index.html">Beschrijving</a></li>
+        <li><a href="info.html">Info & Documenten</a></li>
         <li><a href="0.html">Gelijkvloers</a></li>
         <li><a href="1.html">1ste Verdiep</a></li>
         <li><a href="2.html">2de Verdiep</a></li>
@@ -40,10 +41,23 @@
 
   </div>
 
-   <div id="planContainer">
+  <div class="photoButtonsContainer">
+    <form action="0.html">
+      <input type="submit" class="button photoButtons" value="Foto's Gelijkvloers" />
+    </form>
+    <form action="1.html">
+      <input type="submit" class="button photoButtons" value="Foto's 1ste Verdiep" />
+    </form>
+    <form action="2.html">
+      <input type="submit" class="button photoButtons" value="Foto's 2de Verdiep" />
+    </form>
+  </div>
+
+  
+  <div id="planContainer">
     <img src="images/maps/map-0.png" alt="" id="map" />
 
-  </div> 
+  </div>
 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>

@@ -29,13 +29,36 @@ body {
  
 }
 
+
+
 p{
   margin-top:10px;
+  line-height: 1.4;
+  margin-bottom:10px;
 }
 
 h2{
   margin-bottom:4px;
+  margin-top:14px;
 }
+
+.button {
+  border: none;
+  color: white;
+	background-color: #008080;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+	margin: 0  ;
+	margin-top: 30px;
+	display: block;
+	cursor:pointer;
+  border-radius: 0px;
+}
+
+
 
 /* APPLYING MEDIA QUERIES */
 @media (min-width: 701px) {
@@ -190,3 +213,20 @@ input[type=checkbox]:checked ~ .menu{
  display: block;
 }
 
+.inline{
+  color:#008080;
+  text-decoration: underline;
+}
+
+  
+.inline:hover{
+  color:#01cbcb;
+}
+
+td{
+  padding:4px;
+}
+
+.photoButtons{
+  margin-left:30px;
+}
