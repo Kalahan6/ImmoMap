@@ -42,14 +42,13 @@ h2{
   margin-top:14px;
 }
 
-.button {
+.button{
   border: none;
   color: white;
 	background-color: #008080;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
 	margin: 0  ;
 	margin-top: 30px;
@@ -145,7 +144,28 @@ input[type=checkbox]{
  user-select: none;
 }
 
+.inline{
+  color:#008080;
+  text-decoration: underline;
+}
 
+.inline:visited{
+color:#008080;
+text-decoration: underline;
+}
+  
+  
+.inline:hover{
+  color:#01cbcb;
+}
+
+td{
+  padding:4px;
+}
+
+.photoButtons{
+  margin-left:30px;
+}
 
 /* APPLYING MEDIA QUERIES */
 @media (max-width: 700px) {
@@ -213,17 +233,18 @@ input[type=checkbox]:checked ~ .menu{
  display: block;
 }
 
-a .inline{
+.inline{
   color:#008080;
   text-decoration: underline;
 }
 
-a .inline:visited{
+.inline:visited{
 color:#008080;
 text-decoration: underline;
 }
   
-a .inline:hover{
+  
+.inline:hover{
   color:#01cbcb;
 }
 
