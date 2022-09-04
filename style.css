@@ -213,13 +213,17 @@ input[type=checkbox]:checked ~ .menu{
  display: block;
 }
 
-.inline{
+a .inline{
   color:#008080;
   text-decoration: underline;
 }
 
+a .inline:visited{
+color:#008080;
+text-decoration: underline;
+}
   
-.inline:hover{
+a .inline:hover{
   color:#01cbcb;
 }
 

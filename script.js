@@ -8,20 +8,7 @@ $(function() {
 
 
 function setPhoto() {
-  if (noPhotoSelected == true) {
-    if (document.title === "Villa Te Koop - Tuin"){
-      $("#map").attr("src", "images/maps/Clear/T.png");
-    }
-    if (document.title === "Villa Te Koop - Gelijkvloers"){
-      $("#map").attr("src", "images/maps/Clear/0.png");
-    }
-    if (document.title === "Villa Te Koop - 1ste Verdiep"){
-      $("#map").attr("src", "images/maps/Clear/1.png");
-    }
-    if (document.title === "Villa Te Koop - 2de Verdiep"){
-      $("#map").attr("src", "images/maps/Clear/2.png");
-    }
-  }
+  
   var noPhotoSelected = true;
   $(".photo").each(function() {
     $(this).css('border', '0px solid teal');
@@ -43,6 +30,20 @@ function setPhoto() {
       }
 
     }
+    if (noPhotoSelected == true) {
+    if (document.title === "Villa Te Koop - Tuin"){
+      $("#map").attr("src", "images/maps/Clear/T.png");
+    }
+    if (document.title === "Villa Te Koop - Gelijkvloers"){
+      $("#map").attr("src", "images/maps/Clear/0.png");
+    }
+    if (document.title === "Villa Te Koop - 1ste Verdiep"){
+      $("#map").attr("src", "images/maps/Clear/1.png");
+    }
+    if (document.title === "Villa Te Koop - 2de Verdiep"){
+      $("#map").attr("src", "images/maps/Clear/2.png");
+    }
+  }
   });
   
 }
